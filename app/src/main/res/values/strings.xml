@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LoginApp</string>
+    <string name="all_logo">App logo</string>
+    <string name="all_login_id">ID</string>
+    <string name="all_login_password">Password</string>
+    <string name="all_login_button">Login</string>
+    <string name="all_login_register">Register</string>
+    <string name="all_login_idHint">Enter your id</string>
+    <string name="all_login_passwordHint">Enter your password</string>
+</resources>
