@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">로그인 앱</string>
+    <string name="all_logo">앱 로고</string>
+    <string name="all_login_id">아이디</string>
+    <string name="all_login_password">비밀번호</string>
+    <string name="all_login_button">로그인</string>
+    <string name="all_login_register">회원가입</string>
+    <string name="all_login_idHint">아이디를 입력하세요</string>
+    <string name="all_login_passwordHint">비밀번호를 입력하세요</string>
+</resources>

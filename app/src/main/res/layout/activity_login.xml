@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ConstraintLoginActivity">
+    android:theme="@style/Theme.LoginApp"
+    tools:context=".LoginActivity">
 
     <ImageView
         android:id="@+id/logo"
@@ -40,6 +41,7 @@
         android:hint="@string/all_login_idHint"
         android:importantForAutofill="no"
         android:inputType="text"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/label_password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,6 +68,7 @@
         android:hint="@string/all_login_passwordHint"
         android:importantForAutofill="no"
         android:inputType="textPassword"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/button_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -79,6 +82,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:text="@string/all_login_button"
+        style="@style/LoginButton"
         app:layout_constraintBottom_toTopOf="@+id/button_register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -92,6 +96,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:text="@string/all_login_register"
+        style="@style/LoginButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
